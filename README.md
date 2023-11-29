@@ -29,6 +29,6 @@ Architecture
 
 * A frontend web app in [Python](/vote) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) queue which collects new votes
-* A [.NET](/worker/src/main) worker which consumes votes from the redis queue and stores them in the database
+* A [.NET](/worker) worker which consumes votes from the redis queue and stores them in the database
 * A [Postgres](https://hub.docker.com/_/postgres/) database backed by a Docker volume
 * A [Node.js](/result) web app which shows the results of the voting in real time
