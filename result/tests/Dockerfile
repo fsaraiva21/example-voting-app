@@ -1,6 +1,5 @@
 FROM node:8.9-slim
 
-# hadolint ignore=DL3009
 RUN apt-get update -qq && apt-get install -qy \ 
     ca-certificates \
     bzip2 \
